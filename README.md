@@ -1,24 +1,11 @@
 # qBittorrent_search_engine
-Search engines for [qBittorrent](https://www.qbittorrent.org/):
+Search engines for [qBittorrent](https://www.qbittorrent.org/), with a very simple script to downlaod/update scripts from [https://github.com/qbittorrent/search-plugins/wiki/Unofficial-search-plugins](https://github.com/qbittorrent/search-plugins/wiki/Unofficial-search-plugins).
 
-- KickAss torrent
-- Il Corsaro Blu torrent
-- Il Corsaro Nero torrent
-- Mejor torrent
-- Extra torrent
-- TorrentFunk
-- CineCalidad
-- SoloTorrent
-- ETTV
-- ExtraTorrent
-- Foxcili (no longer works because reCAPTCHA protection)
-- Horrible subs
-- Cpasbien
-- Yts.am
-
-## Notes
-For some sites the download button doesn't work because they don't provide direct torrent link. In that case you should go to the description page (there is a button) and download manually.
+the **link** to --> [official repository](https://github.com/qbittorrent/search-plugins) of search engines.
 
 ## Installation
 Install the plugin by:
 <kbd>Search tab</kbd> 🡪 <kbd>Search Plugins</kbd> 🡪 <kbd>Install a new one</kbd> 🡪 Select the `plugin.py` file.
+
+You need to install `git`, `sed`, `awk` , `sed`, `grep` and `wget` if want to  test `./update.sh`.
+
